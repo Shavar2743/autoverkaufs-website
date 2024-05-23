@@ -3,7 +3,7 @@ function CarListing({Bild, Hersteller, Modell, PS, Farbe, Baujahr, Kilometer, Pr
         <div className="auto">
             <img
                 src={Bild}
-                alt={Modell}
+                alt={`${Hersteller} ${Modell}`}
                 className='autobild'
             />
 
