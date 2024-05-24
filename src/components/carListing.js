@@ -1,4 +1,6 @@
-function CarListing({Bild, Hersteller, Modell, PS, Farbe, Baujahr, Kilometer, Preis}){
+import Timeranzeige from './timer.js';
+
+function CarListing({Bild, Time, Hersteller, Modell, PS, Farbe, Baujahr, Kilometer, Preis}){
     return (
         <div className="auto">
             <img
@@ -7,6 +9,7 @@ function CarListing({Bild, Hersteller, Modell, PS, Farbe, Baujahr, Kilometer, Pr
                 className='autobild'
             />
 
+            <span><Timeranzeige/></span>
             <h1>Name: {Hersteller}</h1>
             <h1>Modell: {Modell}</h1>
             <h1>PS: {PS}</h1>

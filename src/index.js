@@ -4,7 +4,6 @@ import CarListing from './components/carListing';
 import autoliste from './components/autoliste.js';
 import './index.css';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
